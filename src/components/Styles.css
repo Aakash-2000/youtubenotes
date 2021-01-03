@@ -1,0 +1,109 @@
+.inside{
+    width:750px;
+    margin-left: 10%;
+}
+#start{
+    color:#2962ff;
+   
+    background-color:white;
+    
+    border: 2px solid #2962ff;
+}
+video{
+    position:relative; 
+    height:auto;
+    width:100%
+}
+
+#search{
+    color:white;
+   
+    background-color:#2962ff;
+    
+    border: 2px solid #2962ff;
+}
+.notes_container{
+
+    overflow:hidden;
+    overflow-y: scroll;
+    height:550px;
+    
+}
+.grid-container{
+    display:grid;
+    grid-column-gap: 25px;
+}
+#start{
+    width:100px;
+    height:40px;
+    
+   
+    background-color:white;
+    color:#2962ff;
+    
+    
+    border: 2px solid #2962ff;
+    border-radius: 10px;
+}
+.savebtn{
+    width:100px;
+    height:40px;
+    
+   
+    background-color:#2962ff;;
+    color:white;
+    
+    
+    border: 2px solid #2962ff;
+    border-radius: 10px;
+    
+   
+}
+.cancelbtn{
+    width:100px;
+    height:40px;
+    margin-left: 10px;
+    
+    background-color :white;
+    border-radius: 10px;
+
+    color:#2962ff;
+    border: 2px solid #2962ff;
+}
+
+.savebtn:hover{
+    background-color :white;
+    
+    color:#2962ff;
+}
+.signup{
+    
+    
+    width: 50%;
+    margin:0 auto;
+    margin-top:10%;
+
+}
+@media  screen and (max-width: 1000px) {
+    
+    #searchbar{
+        width:70%
+    }
+    #homerow{
+        margin-top: 50px;
+    }
+    #hometext{
+        bottom: 0%;
+    }
+    #homeimg{
+       
+        top:0%;
+        margin: 0 auto;
+    }
+    #name{
+        width:50%
+    }
+    #photo{
+        width:50%
+    }
+  }
